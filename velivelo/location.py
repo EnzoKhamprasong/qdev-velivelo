@@ -5,5 +5,5 @@ class Verdict(Enum):
   AVEC_DEPASSEMENT = 1,
   AMENDE = 2
 
-def horsForfait(duree_location : int, temps_restant : int) -> Verdict:
+def horsForfait(dureeLocation : int, tempsRestant : int) -> Verdict:
   pass
