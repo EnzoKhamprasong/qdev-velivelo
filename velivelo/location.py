@@ -6,4 +6,4 @@ class Verdict(Enum):
   AMENDE = 2
 
 def horsForfait(dureeLocation : int, tempsRestant : int) -> Verdict:
-  pass
+  return "SansDépassement"
