@@ -1,2 +1,3 @@
 def pseudoClientConforme(pseudo : str) -> bool:
-  pass
+  if pseudo == "":
+    raise ValueError("Le pseudo ne doit pas être vide")
