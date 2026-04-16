@@ -11,4 +11,5 @@ def horsForfait(dureeLocation : int, tempsRestant : int) -> Verdict:
   # dureeLocation <= 240
   if dureeLocation <= tempsRestant:
     return Verdict.SANS_DEPASSEMENT
-    
+  else:
+    return Verdict.AVEC_DEPASSEMENT
