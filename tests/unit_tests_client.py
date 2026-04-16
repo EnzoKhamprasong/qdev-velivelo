@@ -8,6 +8,7 @@ class TestPseudoClientConforme(unittest.TestCase):
     self.assertEqual(pseudoClientConforme("Rob96666666"), False)
     self.assertEqual(pseudoClientConforme("rob96"), False)
     self.assertEqual(pseudoClientConforme("Rob96%"), False)
+    self.assertRaises(ValueError,pseudoClientConforme,"")
 
 if __name__ == '__main__':
   unittest.main()
