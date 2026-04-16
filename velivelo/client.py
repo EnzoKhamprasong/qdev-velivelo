@@ -7,3 +7,5 @@ def pseudoClientConforme(pseudo : str) -> bool:
     return False
   elif pseudo.isalnum() == False: #Ne contient pas que des caractères alphanumériques
     return False
+  else :
+    return True
